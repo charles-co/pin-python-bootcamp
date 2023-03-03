@@ -183,7 +183,7 @@ def game():
                 health -= 1
                 if health == 1:
                     print("***You Have", health, "Chance Left***")
-                   continue
+                    continue
                 elif health > 1:
                     print("***You Have", health, "Chances Left***")
                     continue
